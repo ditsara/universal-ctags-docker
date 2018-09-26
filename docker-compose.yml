@@ -1,0 +1,8 @@
+version: '2'
+services:
+  cli:
+    image: ditsara/universal-ctags-docker:latest
+    build:
+      context: .
+    volumes:
+      - '.:/workspace'
